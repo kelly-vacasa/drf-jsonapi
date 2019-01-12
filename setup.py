@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name='drf-jsonapi',
-    version='0.1.0',
+    version='0.3.1',
     license='MIT',
     description='OpenSource Django JSONAPI Library',
     long_description=readme(),
