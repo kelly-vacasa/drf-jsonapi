@@ -15,7 +15,8 @@ setup(
     author='Vacasa, LLC',
     author_email='opensource@vacasa.com',
     url='https://github.com/vacasa/drf-jsonapi',
-    packages=find_packages(exclude=['tests*']),
+    packages=find_packages('drf_jsonapi'),
+    package_dir={'': 'drf_jsonapi'},
     include_package_data=True,
     install_requires=[
         'django',
